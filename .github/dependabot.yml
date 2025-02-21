@@ -30,3 +30,7 @@ updates:
     directory: "/tests/compose/webmail/" # Location of package manifests
     schedule:
       interval: "weekly"
+  - package-ecosystem: "docker-compose"
+    directory: "/setup/flavors/compose/" # Location of package manifests
+    schedule:
+      interval: "weekly"
